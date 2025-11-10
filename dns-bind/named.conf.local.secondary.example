@@ -1,0 +1,5 @@
+zone "miempresa.com" {
+    type slave;
+    masters { 203.0.113.10; }; // IP del DNS primario
+    file "/var/cache/bind/db.miempresa.com";
+};

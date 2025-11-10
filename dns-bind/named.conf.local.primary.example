@@ -1,0 +1,5 @@
+zone "miempresa.com" {
+    type master;
+    file "/etc/bind/db.miempresa.com";
+    allow-transfer { 203.0.113.20; }; // IP del DNS secundario
+};
