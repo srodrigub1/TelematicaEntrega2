@@ -13,6 +13,3 @@ del curso de redes/servicios, basada en el enunciado:
 - Servidores web con **NGINX**.
 - Servicio DNS con **BIND9** (primario y secundario).
 
-> Importante: este código no crea la infraestructura de AWS automáticamente;
-> provee los archivos de configuración y la estructura de los sitios web para
-> que puedas montarlos en tus instancias EC2 y documentar el despliegue.
